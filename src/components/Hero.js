@@ -44,7 +44,8 @@ class Hero extends Component {
                                 The Watering Can
                             </h1>
                             <p className="heroDescript heroText">
-                                We hope to create a more engaging food system that everyone - farmer, restauranteur, consumer - can be a part of through our dedicated blog and outreach campaigns.
+                                The Watering Can is a student-led consultancy offering pro-bono services to help
+     restaurants integrate sustainability into their business model and operations.
                             </p>
                             <button className="actionBtn heroText" onClick={this.onClickActionBtn}>
                                 Get Involved Now!

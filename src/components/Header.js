@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar, Nav, Col } from 'react-bootstrap';
 import '../assets/style.css';
 import { Link } from 'react-router-dom';
 
@@ -41,7 +41,7 @@ class Header extends Component {
     render() {
         return (
             <div className="header" style={this.headerColor()}>
-                <Navbar collapseOnSelect expand="lg" bg="" variant="dark">
+                <Navbar collapseOnSelect expand="lg" variant="dark">
                     <Link to="/" className="my-container logo" onClick={this.onClick}>
                         <img
                             alt="The Watering Can"
@@ -51,7 +51,7 @@ class Header extends Component {
                         />
                     </Link>
                     <Navbar.Toggle onClick={this.Toggle} aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
+                    <Navbar.Collapse id="responsive-navbar-nav" >
                         <Nav className="mr-auto" />
                         <Nav>
                             <Link to="/" style={styles.navLink} className="nav-link" onClick={this.onClick}>
@@ -83,6 +83,9 @@ const styles = {
     logo: {
         height: 60,
         margin: 10
+    },
+    navLink: {
+        backgroundColor: 'white !important'
     }
 };
 
