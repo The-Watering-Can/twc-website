@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/twc-website/static/css/main.3e7bcca9.chunk.css",
+    "main.js": "/twc-website/static/js/main.f42397c8.chunk.js",
+    "main.js.map": "/twc-website/static/js/main.f42397c8.chunk.js.map",
+    "runtime-main.js": "/twc-website/static/js/runtime-main.1f2a73a1.js",
+    "runtime-main.js.map": "/twc-website/static/js/runtime-main.1f2a73a1.js.map",
+    "static/css/2.11829350.chunk.css": "/twc-website/static/css/2.11829350.chunk.css",
+    "static/js/2.dce27daa.chunk.js": "/twc-website/static/js/2.dce27daa.chunk.js",
+    "static/js/2.dce27daa.chunk.js.map": "/twc-website/static/js/2.dce27daa.chunk.js.map",
+    "index.html": "/twc-website/index.html",
+    "precache-manifest.ce81b145f96e09ffb24c4f4971661895.js": "/twc-website/precache-manifest.ce81b145f96e09ffb24c4f4971661895.js",
+    "service-worker.js": "/twc-website/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/twc-website/static/css/2.11829350.chunk.css.map",
+    "static/css/main.3e7bcca9.chunk.css.map": "/twc-website/static/css/main.3e7bcca9.chunk.css.map",
+    "static/js/2.dce27daa.chunk.js.LICENSE.txt": "/twc-website/static/js/2.dce27daa.chunk.js.LICENSE.txt",
+    "static/media/arial-rounded-mt-bold.ttf": "/twc-website/static/media/arial-rounded-mt-bold.2d1068a7.ttf",
+    "static/media/style.css": "/twc-website/static/media/heroimage.488f9671.png",
+    "static/media/joinChapterImg.png": "/twc-website/static/media/joinChapterImg.9b20084c.png",
+    "static/media/logo.png": "/twc-website/static/media/logo.79fa5930.png",
+    "static/media/restaurantIcon.png": "/twc-website/static/media/restaurantIcon.097d0940.png",
+    "static/media/restaurantImg.png": "/twc-website/static/media/restaurantImg.5c3e2b4d.png",
+    "static/media/startChapterImg.png": "/twc-website/static/media/startChapterImg.4bdb4f7f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1f2a73a1.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.dce27daa.chunk.js",
+    "static/css/main.3e7bcca9.chunk.css",
+    "static/js/main.f42397c8.chunk.js"
+  ]
+}
