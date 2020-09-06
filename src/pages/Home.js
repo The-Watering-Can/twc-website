@@ -5,6 +5,7 @@ import Colors from '../assets/colors'
 import Hero from '../components/Hero'
 import Header from '../components/Header'
 import Panel from '../components/Panel'
+import Footer from '../components/Footer'
 
 import startChapterIcon from '../assets/images/startChapterIcon.png';
 import startChapterImg from '../assets/images/startChapterImg.png';
@@ -23,6 +24,7 @@ const Home = () => (
       <Panel title="Start a Chapter" icon={startChapterIcon} img={startChapterImg} description="If you’re interested in creating a chapter at your university, fill out the form by clicking here." />
       <Panel title="Restaurant" icon={restaurantIcon} img={restaurantImg} description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat rhoncus ligula, vitae ultrices ante tempus at. Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
     </div>
+    <Footer />
   </div>
 )
 

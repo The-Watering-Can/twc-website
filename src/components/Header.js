@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import logo from '../assets/images/logo.png';
 
 import Colors from '../assets/colors';
-const color = Colors.darkBlue;
+const color = Colors.mintGreen;
 
 class Header extends Component {
     state = {
