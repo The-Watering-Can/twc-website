@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import { HashRouter as Router } from 'react-router-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import './assets/fonts/arial-rounded-mt-bold.ttf'
 
 ReactDOM.render(
   <Router onUpdate={() => window.scrollTo(0, 0)}>
