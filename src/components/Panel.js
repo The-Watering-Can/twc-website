@@ -9,26 +9,25 @@ const ProjectCard = (props) => {
     const [hover, setHover] = useState(false);
     const [opacity, setOpacity] = useState('90%');
 
-    const onHover = () => {
-        setHover(!hover);
-        hover
-            ? setOpacity('90%')
-            : setOpacity('30%')
+    const onHoverChange = (isEnter) => {
+        setHover(isEnter);
+        isEnter
+            ? setOpacity('30%')
+            : setOpacity('90%');
     }
 
     return (
-        <div className="my-container column-dir between panel-container" onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
+        <div className="my-container column-dir between panel-container" onMouseEnter={() => onHoverChange(true)} onMouseLeave={() => onHoverChange(false)}>
             <div className="panel-title">
                 <img src={props.icon} className="panel-icon" />
                 <h2>{props.title}</h2>
             </div>
-            <div className="my-container center panel-img" style={{ backgroundImage: `url(${props.img})`, position: "relative", backgroundRepeat: 'no-repeat', backgroundSize: 'cover', opacity: opacity }}>
+            <div className="my-container center panel-img">
+                <div className="panel-img-background" style={{backgroundImage: `url(${props.img})`,  opacity: opacity}}></div>
                 {hover
                     ? <div className="panel-description">{props.description}</div>
-                    // </div>
-                    : <p></p>
+                    : null
                 }
-                {/* <img src={props.img} className="full-img panel-img" /> */}
             </div>
 
         </div>
